@@ -19,12 +19,12 @@
           <div class="col-1">
             
             </div>
-            <div class="col">
-            <h1>Reuniones Pendientes</h1>
+            <div class="col-8">
+            <h1>Reuniones Creadas</h1>
             </div>
             
             <div class="col">
-            
+                <button type="button" class="btn btn-info">Crear reunión</button>
             </div>
         </div>
         <div class="row">
@@ -47,6 +47,9 @@
                     <b>Horario: </b> 15:30 hrs<br>
                     <b>Tipo: </b> tipo de reunion<br>
                     <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Acceso a la reunion</a><br>
+                    <button type="button" class="btn btn-warning">Modificar Reunión</button><br>
+                    <button type="button" class="btn btn-danger">Suspender Reunión</button>
+
 
 
 
