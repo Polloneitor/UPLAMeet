@@ -24,7 +24,7 @@
             </div>
             
             <div class="col">
-                <button type="button" class="btn btn-info">Crear reunión</button>
+                <a href="/UPLAMeet/Home/crear_reunion"><button type="button" class="btn btn-info">Crear reunión</button></a>
             </div>
         </div>
         <div class="row">
@@ -46,9 +46,12 @@
                     <b>Fecha: </b>07/08/2023 <br>
                     <b>Horario: </b> 15:30 hrs<br>
                     <b>Tipo: </b> tipo de reunion<br>
-                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Acceso a la reunion</a><br>
-                    <button type="button" class="btn btn-warning">Modificar Reunión</button><br>
-                    <button type="button" class="btn btn-danger">Suspender Reunión</button>
+                    <b style="color:green">Estado:  Realizada</b><br>
+                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Reunion.mp4</a><br>
+
+                    <b>Acta: </b><p style="color:red"> No se encuentra disponible el acta aún</p> 
+                    <a href="/UPLAMeet/Home/actualizar_acta"> <button type="button" class="btn btn-danger">Actualizar acta</button></a>
+
 
 
 
@@ -70,8 +73,11 @@
                     <b>Fecha: </b>07/09/2023 <br>
                     <b>Horario: </b> 15:30 hrs<br>
                     <b>Tipo: </b> tipo de reunion<br>
-                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Acceso a la reunion</a><br>
+                    <b style="color:orange">Estado:  Pendiente</b><br>
 
+                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Acceso a la reunion</a><br>
+                    <button type="button" class="btn btn-warning">Modificar Reunión</button><br>
+                    <button type="button" class="btn btn-danger">Suspender Reunión</button>
                   </div>
                 </div>
               </div>
@@ -85,10 +91,14 @@
                   <div class="accordion-body">
                   <b>Titulo: </b> titulo de la reunion<br>
                     <b>Descripción: </b> Descripción de la reunion<br>
-                    <b>Fecha: </b>07/10/2023 <br>
+                    <b>Fecha: </b>07/08/2023 <br>
                     <b>Horario: </b> 15:30 hrs<br>
                     <b>Tipo: </b> tipo de reunion<br>
-                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Acceso a la reunion</a><br>
+                    <b style="color:green">Estado:  Realizada</b><br>
+                    <b>Enlace: </b> <a href="https://cdn.memegenerator.es/imagenes/memes/full/31/43/31437270.jpg">Reunion.mp4</a><br>
+
+                    <b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_11/11/2022_TEMA</a><br>
+                    <a href="/UPLAMeet/Home/actualizar_acta"> <button type="button" class="btn btn-danger">Actualizar acta</button></a>
 
                   </div>
                 </div>
