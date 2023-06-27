@@ -11,43 +11,43 @@ class Home extends BaseController
 
     public function verapp(){
 
-        echo view('header.php');
-        echo view('navbar.php');
-        echo view('pendientes.php');
-        echo view('footer.php');
+        return view('header.php')
+        .view('navbar.php')
+        .view('pendientes.php')
+        .view('footer.php');
   
     }
     public function ver_realizadas(){
 
-        echo view('header.php');
-        echo view('navbar.php');
-        echo view('realizadas.php');
-        echo view('footer.php');
+        return view('header.php')
+        .view('navbar.php')
+        .view('realizadas.php')
+        .view('footer.php');
   
     }
     public function ver_acta(){
 
-        echo view('header.php');
-        echo view('navbar.php');
-        echo view('acta.php');
-        echo view('footer.php');
+        return view('header.php')
+        .view('navbar.php')
+        .view('acta.php')
+        .view('footer.php');
   
     }
     public function ver_comentarios(){
 
-        echo view('header.php');
-        echo view('navbar.php');
-        echo view('comentarios.php');
-        echo view('footer.php');
+        return view('header.php')
+        .view('navbar.php')
+        .view('comentarios.php')
+        .view('footer.php');
   
     }
 
     public function ver_comentarios0(){
 
-        echo view('header.php');
-        echo view('navbar.php');
-        echo view('comentarios0.php');
-        echo view('footer.php');
+        return view('header.php')
+        .view('navbar.php')
+        .view('comentarios0.php')
+        .view('footer.php');
   
     }
     

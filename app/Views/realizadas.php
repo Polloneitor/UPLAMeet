@@ -1,138 +1,156 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>UPLAMeet</title>
-  </head>
-  <body>
-    <div class="container-fluid ">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blanco.svg/1200px-Blanco.svg.png"width="100" height="100">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <div class="row">
-          <div class="col-1">
-            
-            </div>
-            <div class="col">
-            <h1>Reuniones Realizadas</h1>
-            </div>
-            
-            <div class="col">
-            
-            </div>
-        </div>
+  <title>UPLAMeet</title>
+</head>
 
-        <div class="row">
-          <div class="col-1">
-            
-            </div>
-            <div class="col">
+<body>
+  <div class="container-fluid ">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blanco.svg/1200px-Blanco.svg.png" width="100" height="100">
 
-            <select class="form-select" aria-label="Default select example">
+    <div class="row">
+      <div class="col-1">
+
+      </div>
+      <div class="col">
+        <h1>Reuniones Realizadas</h1>
+      </div>
+      <div class="col">
+        <div style='margin-top:1%;margin-left:73%;width:100%' class="input-group mb-3">
+          <select id='selector' class="form-select" aria-label="Default select example">
             <option selected>Ordenar por:</option>
             <option value="1">Fecha</option>
             <option value="2">Tipo de Reunión</option>
             <option value="3">Organizador</option>
-            <option value="3">Sólo con acta</option>
+            <option value="4">Sólo con acta</option>
 
           </select>
-
-
-            </div>
-            
-            <div class="col">
-            
-            </div>
         </div>
 
+      </div>
+      <div class="col">
 
+      </div>
+    </div>
 
-        <div class="row">
-          <div class="col-1"></div>
+    <div class="row">
+      <div class="col-1">
 
-          
-          <div class="col">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <b>12/04/2023</b> --------------- Reunión número 1 
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    <b>Titulo: </b> titulo de la reunion<br>
-                    <b>Descripción: </b> Descripción de la reunion<br>
-                    <b>Fecha: </b>12/04/2023<br>
-                    <b>Horario: </b> 15:30 hrs<br>
-                    <b>Tipo: </b> tipo de reunion<br>
-                    <b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_12/04/2023_TEMA</a><br>
-                    <b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios0">(0)</a><br>
+      </div>
 
+      <div class="col">
 
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-1"></div>
 
-                  
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  <b>11/11/2022</b> --------------- Reunión número 2 
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                  <b>Titulo: </b> titulo de la reunion<br>
-                    <b>Descripción: </b> Descripción de la reunion<br>
-                    <b>Fecha: </b>11/11/2022 <br>
-                    <b>Horario: </b> 15:30 hrs<br>
-                    <b>Tipo: </b> tipo de reunion<br>
-                    <b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_11/11/2022_TEMA</a><br>
-                    <b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios">(3)</a><br>
-
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  <p style="color:red"><b>07/09/2022</b> --------------- Reunión número 3 </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                  <b>Titulo: </b> titulo de la reunion<br>
-                    <b>Descripción: </b> Descripción de la reunion<br>
-                    <b>Fecha: </b>07/09/2022 <br>
-                    <b>Horario: </b> 15:30 hrs<br>
-                    <b>Tipo: </b> tipo de reunion<br>
-                    <b>Acta: </b><p style="color:red"> No se encuentra disponible el acta aún</p> <br>
-                    <b style="color:grey">Comentarios: </b> (0)<br>
-
-                  </div>
-                </div>
+      <div class="col">
+        <div id='hidden_data'></div>
+        <div class="accordion accordion-flush" id='all_data'>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>12/04/2023</b> --------------- Reunión número 1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <b>Titulo: </b> titulo de la reunion<br>
+                <b>Descripción: </b> Descripción de la reunion<br>
+                <b>Fecha: </b>12/04/2023<br>
+                <b>Horario: </b> 15:30 hrs<br>
+                <b>Tipo: </b> tipo de reunion<br>
+                <b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_12/04/2023_TEMA</a><br>
+                <b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios0">(0)</a><br>
               </div>
             </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b>11/11/2022</b> --------------- Reunión número 2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <b>Titulo: </b> titulo de la reunion<br>
+                <b>Descripción: </b> Descripción de la reunion<br>
+                <b>Fecha: </b>11/11/2022 <br>
+                <b>Horario: </b> 15:30 hrs<br>
+                <b>Tipo: </b> tipo de reunion<br>
+                <b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_11/11/2022_TEMA</a><br>
+                <b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios">(3)</a><br>
 
-          <div class="col-1"></div>
+              </div>
+            </div>
+          </div>
+          <h1 style="margin-top:1.5%">Por usted</h1>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <p style="color:red"><b>07/09/2022</b> --------------- Reunión número 3 </p>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <b>Titulo: </b> titulo de la reunion<br>
+                <b>Descripción: </b> Descripción de la reunion<br>
+                <b>Fecha: </b>07/09/2022 <br>
+                <b>Horario: </b> 15:30 hrs<br>
+                <b>Tipo: </b> tipo de reunion<br>
+                <b>Acta: </b>
+                <p style="color:red"> No se encuentra disponible el acta aún</p> <br>
+                <b style="color:grey">Comentarios: </b> (0)<br>
 
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blanco.svg/1200px-Blanco.svg.png"width="100" height="100">
+      </div>
 
-        </div>
+      <div class="col-1"></div>
+
     </div>
+    <div class="row">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blanco.svg/1200px-Blanco.svg.png" width="100" height="100">
+    </div>
+  </div>
+</body>
 
-    
- 
-  </body>
 </html>
+<script>
+  var e = document.getElementById("selector");
+  var div = document.getElementById('all_data');
+  var div2 = document.getElementById('hidden_data');
+
+  function onChange() {
+    var text = e.options[e.selectedIndex].text;
+    if (text == "Sólo con acta") {
+      div2.innerHTML = '<div class="accordion accordion-flush" id="accordionFlushExample"><div class="accordion-item"><h2 class="accordion-header" id="flush-headingOne"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"><b>12/04/2023</b> --------------- Reunión número 1</button></h2><div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample"><div class="accordion-body"><b>Titulo:</b> titulo de la reunion<br> <b>Descripción: </b> Descripción de la reunion<br><b>Fecha: </b>12/04/2023<br><b>Horario: </b> 15:30 hrs<br><b>Tipo: </b> tipo de reunion<br><b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_12/04/2023_TEMA</a><br><b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios0">(0)</a><br></div></div></div><div class="accordion-item"><h2 class="accordion-header" id="flush-headingTwo"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"><b>11/11/2022</b> --------------- Reunión número 2</button></h2><div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample"><div class="accordion-body"><b>Titulo: </b> titulo de la reunion<br><b>Descripción: </b> Descripción de la reunion<br><b>Fecha: </b>11/11/2022 <br><b>Horario: </b> 15:30 hrs<br><b>Tipo: </b> tipo de reunion<br><b>Acta: </b> <a href="/UPLAMeet/Home/ver_acta">ACTA_11/11/2022_TEMA</a><br><b>Comentarios: </b> <a href="/UPLAMeet/Home/ver_comentarios">(3)</a><br></div></div></div></div>';
+      div2.style.visibility = 'visible';
+      div.style.visibility = 'hidden';
+    } else if (text == "Organizador") {
+      div2.innerHTML = '<div class="accordion accordion-flush" id="accordionFlushExample"><h1 style="margin-top:1.5%">Por usted</h1><div class="accordion-item"><h2 class="accordion-header" id="flush-headingThree"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"><p style="color:red"><b>07/09/2022</b> --------------- Reunión número 3 </p></button></h2><div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample"><div class="accordion-body"><b>Titulo: </b> titulo de la reunion<br><b>Descripción: </b> Descripción de la reunion<br><b>Fecha: </b>07/09/2022 <br><b>Horario: </b> 15:30 hrs<br><b>Tipo: </b> tipo de reunion<br><b>Acta: </b><p style="color:red"> No se encuentra disponible el acta aún</p> <br><b style="color:grey">Comentarios: </b> (0)<br></div></div>'
+      div2.style.visibility = 'visible';
+      div.style.visibility = 'hidden';
+    } else {
+      div2.innerHTML = ''
+      div2.style.visibility = 'hidden';
+      div.style.visibility = 'visible';
+    }
+  }
+
+  e.onchange = onChange;
+  onChange();
+</script>
